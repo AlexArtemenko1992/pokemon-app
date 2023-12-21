@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/pokemon-app/static/css/main.fd3fee92.css",
-    "main.js": "/pokemon-app/static/js/main.442de5c5.js",
+    "main.js": "/pokemon-app/static/js/main.c2224fb5.js",
     "static/media/pikachu-crying-pokemon-pikachu.png": "/pokemon-app/static/media/pikachu-crying-pokemon-pikachu.06e382ca355f857dd30e.png",
     "static/media/no-img.jpeg": "/pokemon-app/static/media/no-img.2efe78cdf6dbf909f571.jpeg",
     "static/media/pokemon-logo.svg": "/pokemon-app/static/media/pokemon-logo.499612a7b5342abac926a67c13deb442.svg",
     "index.html": "/pokemon-app/index.html",
     "main.fd3fee92.css.map": "/pokemon-app/static/css/main.fd3fee92.css.map",
-    "main.442de5c5.js.map": "/pokemon-app/static/js/main.442de5c5.js.map"
+    "main.c2224fb5.js.map": "/pokemon-app/static/js/main.c2224fb5.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3fee92.css",
-    "static/js/main.442de5c5.js"
+    "static/js/main.c2224fb5.js"
   ]
 }
