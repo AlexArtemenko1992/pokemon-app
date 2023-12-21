@@ -13,7 +13,8 @@ const ErrorPage = () => {
             <span>Error 404</span>
             <p className={style["p-a"]}>
               Page not found! Looks like the URL went on a vacation without leaving a forwarding
-              address. Let's hope it's enjoying some sunny beaches and will be back soon!
+              address. <br />
+              Let's hope it's enjoying some sunny beaches and will be back soon!
             </p>
           </div>
         </div>
