@@ -1,0 +1,15 @@
+.progressbar .progress {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 28px;
+  transition: width 700ms ease-in-out;
+  transition-delay: 200ms;
+  height: 100%;
+}
+
+.progressbar {
+  width: 100%;
+  height: 24px;
+  border-radius: 28px;
+  background-color: #a2a9b3;
+}

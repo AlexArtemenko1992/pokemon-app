@@ -1,0 +1,21 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-wrapper p {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-left: 15px;
+}
+
+.header-logo {
+  max-width: 60px;
+}
