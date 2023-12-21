@@ -15,7 +15,7 @@ const SearchForm = () => {
     if (inputValue) {
       dispatch(fetchSearchedPokemons(inputValue.toLowerCase()));
       setInputValue("");
-      navigate(`/pokemon/${inputValue.toLowerCase()}`);
+      navigate(`/pokemon-app/pokemon/${inputValue.toLowerCase()}`);
     }
   };
 

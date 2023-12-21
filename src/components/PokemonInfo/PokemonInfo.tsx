@@ -13,7 +13,7 @@ const PokemonInfo = ({ pokemon }: any) => {
   useDocumentTitle(`Pokemon App | ${firstLetterToUpperCase(pokemon.name)}`);
 
   const redirectToSelectedType = (e) => {
-    navigate("/");
+    navigate("/pokemon-app/");
     dispatch(selectTypeForPokemons(e.target.id));
   };
 

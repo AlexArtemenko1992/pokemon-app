@@ -6,7 +6,7 @@ import { PokemonItemPropsInterface } from "./PokemonItemPropsInterface";
 
 const PokemonItem = ({ id, name, imgUrl, types }: PokemonItemPropsInterface) => {
   return (
-    <Link className="card-pokemon" to={`/pokemon/${name}`}>
+    <Link className="card-pokemon" to={`/pokemon-app/pokemon/${name}`}>
       <div className="card-img">
         {imgUrl ? (
           <img src={imgUrl} alt={`Pokemon ${name}`} />
