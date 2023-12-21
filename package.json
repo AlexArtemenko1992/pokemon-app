@@ -2,6 +2,7 @@
   "name": "pokemon-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AlexArtemenko1992.github.io/pokemon-app",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -27,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +55,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
-    "@react-icons/all-files": "^4.1.0"
+    "@react-icons/all-files": "^4.1.0",
+    "gh-pages": "^6.1.0"
   }
 }
