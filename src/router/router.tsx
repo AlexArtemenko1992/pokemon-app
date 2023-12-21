@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <PokemonDescriptionPage />,
   },
   {
-    path: "*",
+    path: "/pokemon-app/*",
     element: <ErrorPage />,
   },
 ]);
