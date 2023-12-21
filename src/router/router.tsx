@@ -5,19 +5,19 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pokemon-app/",
     element: <PokemonLayout />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/pokemon-app/",
         element: <PokemonsPage />,
         index: true,
       },
     ],
   },
   {
-    path: "/pokemon/:name",
+    path: "/pokemon-app/pokemon/:name",
     element: <PokemonDescriptionPage />,
   },
 ]);
