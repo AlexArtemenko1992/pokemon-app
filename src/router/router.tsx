@@ -20,10 +20,7 @@ const router = createBrowserRouter([
     path: "/pokemon-app/pokemon/:name",
     element: <PokemonDescriptionPage />,
   },
-  {
-    path: "/pokemon-app/*",
-    element: <ErrorPage />,
-  },
+  { path: "*", element: <>Not Found</> },
 ]);
 
 export default router;
