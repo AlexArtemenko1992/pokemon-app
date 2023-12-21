@@ -9,7 +9,7 @@ const ButtonBackBage = () => {
       className={style["back-page-btn"]}
       onClick={(e) => {
         e.preventDefault();
-        navigate("..");
+        navigate("/pokemon-app");
       }}
     >
       <KeyboardBackspaceIcon />
